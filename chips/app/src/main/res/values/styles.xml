@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+    </style>
+
+
+    <style name="materialButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:padding">16dp</item>
+        <item name="android:insetBottom">8dp</item>
+        <item name="android:insetTop">8dp</item>
+    </style>
+
+    <style name="choiceChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">@color/colorPrimaryLight</item>
+        <item name="rippleColor">@color/colorPrimaryLight</item>
+        <item name="chipEndPadding">12dp</item>
+        <item name="chipStartPadding">12dp</item>
+    </style>
+
+    <style name="actionChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="iconStartPadding">4dp</item>
+        <item name="iconEndPadding">1dp</item>
+        <item name="textStartPadding">1dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>
